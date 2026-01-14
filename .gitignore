@@ -6,8 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
-# Game State
+# Game Logging
 game_state.jsonl
+game_events.jsonl
 
 # Distribution / packaging
 .Python
