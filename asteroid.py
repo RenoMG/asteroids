@@ -34,6 +34,8 @@ class Asteroid(CircleShape):
         asteroid_1_obj.velocity = asteroid_1 * 1.2
         asteroid_2_obj = Asteroid(self.position.x, self.position.y, new_radius)
         asteroid_2_obj.velocity = asteroid_2 * 1.2
+        
+        #Could have used the same variable name since it will just get overridden and spawn another obj anyways.
 
 
 
